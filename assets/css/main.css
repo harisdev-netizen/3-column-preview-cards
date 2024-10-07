@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Big Shoulders Display', 'Lexend Deca';
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #E28625;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 291px;
+  padding: 30px 0 48px 0;
+}
+
+.card h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  padding: 35px 10px 25px 48px;
+  color: white;
+}
+
+.card p {
+  font-family: 'Lexend Deca';
+  font-size: 15px;
+  font-weight: 250;
+  opacity: 75%;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  padding: 0px 40px 66px 49.5px;
+}
+
+.sedan__btn, .suv__btn, .luxury__btn {
+  cursor: pointer;
+  padding: 12px 22px;
+  border-radius: 25px;
+  font-family: 'Lexend Deca';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  background-color: #F2F2F2;
+  text-decoration: none;
+  margin-left: 48px;
+}
+
+.sedan__btn {
+  color: #E28625;
+}
+
+.suv__btn {
+  color: #006971;
+}
+
+.luxury__btn {
+  color: #004140;
+}
+
+.card a:hover {
+  background: transparent;
+  transition: background-color 0.3s;
+  color: #f2f2f2;
+  border: 1px solid #ddd;
+}
+
+.sedan {
+  background-color: #E28625;
+  border-radius: 8px 0 0 8px;
+}
+
+.suv {
+  background-color: #006971;
+  border-radius: 0 5px 5px 0;
+}
+
+.luxury {
+  background-color: #00494d;
+  border-radius: 0 8px 8px 0;
+}
+
+.icon img {
+  width: 64px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  padding-left: 48px;
+  padding-top: 48px;
+}
+
+/* @media (max-width: 767px) {
+  body {
+    padding: 20px;
+  }
+  .card-container {
+    display: grid;
+  }
+  .sedan {
+    border-radius: 8px 8px 0 0;
+  }
+  .suv {
+    border-radius: 8px;
+    margin-top: 40p;
+  }
+} */
