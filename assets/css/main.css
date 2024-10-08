@@ -13,14 +13,22 @@ body {
   justify-content:center;
   align-items: center;
   min-height: 100vh;
-  padding: 20px;
 }
 
 .card-container {
   display: flex;
   justify-content: center;
-  height: auto;
   flex-wrap: wrap;
+}
+
+.icon img {
+  width: 64px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  padding-left: 48px;
+  padding-top: 48px;
 }
 
 .card {
@@ -49,7 +57,7 @@ body {
   padding: 0px 40px 66px 49.5px;
 }
 
-.sedan__btn, .suv__btn, .luxury__btn {
+.card a {
   cursor: pointer;
   padding: 12px 22px;
   border-radius: 25px;
@@ -62,16 +70,16 @@ body {
   margin-left: 48px;
 }
 
-.sedan__btn {
+.card.sedan a {
   color: #E28625;
 }
 
-.suv__btn {
+.card.suv a {
   color: #006971;
 }
 
-.luxury__btn {
-  color: #004140;
+.card.luxury a {
+  color: 004140;
 }
 
 .card a:hover {
@@ -96,12 +104,8 @@ body {
   border-radius: 0 8px 8px 0;
 }
 
-.icon img {
-  width: 64px;
-  margin-bottom: 20px;
-}
-
-.icon {
-  padding-left: 48px;
-  padding-top: 48px;
+@media (max-width: 767px) {
+  body {
+    padding: 89px 16px 87px 32px;
+  }
 }
