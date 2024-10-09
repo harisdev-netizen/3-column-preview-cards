@@ -96,7 +96,8 @@ body {
 
 .suv {
   background-color: #006971;
-  border-radius: 0 5px 5px 0;
+  border-radius: 8px 0 0 8px;
+  margin-left: -5px;
 }
 
 .luxury {
