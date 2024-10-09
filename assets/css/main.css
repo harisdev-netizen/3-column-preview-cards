@@ -79,7 +79,7 @@ body {
 }
 
 .card.luxury a {
-  color: 004140;
+  color: #004140;
 }
 
 .card a:hover {
@@ -108,5 +108,18 @@ body {
 @media (max-width: 767px) {
   body {
     padding: 89px 16px 87px 32px;
+  }
+
+  .sedan {
+    border-radius: 8px 8px 0 0;
+  }
+
+  .suv {
+    margin: 0;
+    border-radius: 0 0 0 0;
+  }
+
+  .luxury {
+    border-radius: 0 0 8px 8px;
   }
 }
